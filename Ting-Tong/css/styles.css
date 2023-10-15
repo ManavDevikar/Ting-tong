@@ -1,0 +1,149 @@
+
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+h1 {  font-family: 'Montserrat', sans-serif;  font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;
+line-height: 70px;
+color: white;
+}
+h2{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+h3{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: bold;
+}
+p{
+  color:gray;
+}
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+
+/* navigation bar*/
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 1.5rem;
+}
+.nav-link{
+  font-family: "Montserrat-light", sans-serif;
+  font-size: 1.3rem;
+}
+/*download-button*/
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image*/
+.Title-image{
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* features box*/
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.feature-box{
+  padding: 4.5%;
+  text-align: center;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+  cursor: pointer;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing-card {
+  padding:4% 2%;
+}
+
+@media (max-width:1000px) {
+#title{
+  text-align: center;
+}
+
+.Title-image{
+  position: static;
+  transform: rotate(0);
+  width: 60%;
+}
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+.cta{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  color: white;
+}
+
+/* footer*/
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+.man{
+  margin: 20px 10px;
+}
+.man:hover{
+  color:black;
+  cursor: pointer;
+}
